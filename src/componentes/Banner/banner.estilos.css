@@ -1,0 +1,20 @@
+.banner {
+  background: linear-gradient(180deg, #17E4B9 0%, #091D24 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.banner > img {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .banner > img {
+    display: block;
+    max-width: 50%;
+    flex-shrink: 0;
+  }
+}

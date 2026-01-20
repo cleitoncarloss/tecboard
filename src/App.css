@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #06151A;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.eventos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.eventos .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.main {
+  padding-bottom: 32px;
+}
